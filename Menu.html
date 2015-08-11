@@ -2,10 +2,9 @@
 <html>
 <head>
 	 
-		 <title>jQuery Mobile Application</title>
-		 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
-		 <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
-		 <script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	 </head>
 <body>
 
@@ -13,11 +12,40 @@
 <Div data-role="page" id="Index.html" data-theme="c">
 <div data-role="content">
 <div id="branding">
- <header data-role="header"><h1>Menu</h1></header>
+  <header data-role="header"><a href="#" data-icon="back" data-rel="back" title="Go back">Back</a><h1>Menu</h1><a href="index.html" data-icon="home" title="Home">Home</a></header>
  </div>
-	
+ <br> 
 
-<footer data-role="footer"><h1>Souv Sailing</h1></footer>
+<ul data-role="listview" data-filter="true" data-input="#myFilter">
+  
+  <div data-role="collapsible">
+  <h1>Lamb Souvlaki</h1>
+  <p>I'm the expanded content.</p>
+</div>
+<div data-role="collapsible">
+  <h1>Chicken Souvlaki</h1>
+  <p>I'm the expanded content.</p>
+</div>
+<div data-role="collapsible">
+  <h1>Pork Souvlaki</h1>
+  <p>I'm the expanded content.</p>
+</div>
+<div data-role="collapsible">
+  <h1>Pork Souvlaki</h1>
+  <p>I'm the expanded content.</p>
+</div>
+<div data-role="collapsible">
+  <h1>Meat Platter</h1>
+  <p>I'm the expanded content.</p>
+</div>
+<div data-role="collapsible">
+  <h1>Greek Salad </h1>
+  <p>I'm the expanded content.</p>
+</div>
+
+
+<br>
+<footer data-role="footer"><h1>&copy; Souv Sailing 2015</h1></footer>
 
 </body>
 
