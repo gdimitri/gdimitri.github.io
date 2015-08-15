@@ -13,6 +13,16 @@
 /* Globals */
 /* Font
 -----------------------------------------------------------------------------------------------------------*/
+#logo{
+background:url("images/logo.png") no-repeat;
+width:322px;
+height:165px;
+text-indent:-999px;
+font-size:0px;
+margin:-10px auto 0 auto;
+border-bottom:0px solid rgba(65, 38, 37, 0.6);
+}
+
 html {
 	font-size: 100%;
 }
