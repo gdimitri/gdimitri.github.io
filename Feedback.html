@@ -1,16 +1,18 @@
 <!doctype html>
 <html>
-<head>
-	 
-		 <title>jQuery Mobile Application</title>
-		 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-	 </head>
+<head> 
+        <title>Jquery Restaurant</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="theme.css"/>
+        <link rel="stylesheet" href="jquery.mobile.icons.min.css" />
+    </head>
 <body>
 
 
-<Div data-role="page" id="Index.html" data-theme="b">
+<Div data-role="page" id="Index.html">
 <div data-role="content">
 <div id="branding">
   <header data-role="header"><a href="#" data-icon="back" data-rel="back" title="Go back">Back</a><h1>Feedback</h1><a href="index.html" data-icon="home" title="Home">Home</a></header>
@@ -19,10 +21,10 @@
 	<form>
 	<!--Text boxes-->
 First name:<br>
-<input type="text" name="firstname">
+<input type="text" name="firstname" pattern="[A-Za-z]+" id="fname"  placeholder="First Name" required>
 <br>
 Last name:<br>
-<input type="text" name="lastname">
+<input type="text" name="lastname" pattern="[A-Za-z]+" id="lname"  placeholder="Last Name" required>
 <br>
 Email:<br>
 <input type="text" name="Email">
